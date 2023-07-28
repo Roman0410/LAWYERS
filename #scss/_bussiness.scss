@@ -1,0 +1,62 @@
+.considerations-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  .considerations-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: rgba(0, 0, 0, 0.04);
+    padding: 16px;
+    width: calc((100% - 16px) / 2);
+    @media screen and (max-width: 700px) {
+      width: 100%;
+    }
+  }
+  .card-title {
+    margin: 0;
+    font-size: 14px;
+  }
+  .text {
+    color: #212121;
+    opacity: 1 !important;
+    text-align: left;
+  }
+}
+.services {
+  background-color: #212121;
+  .container {
+    gap: 32px;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .text {
+    color: #fff;
+    opacity: 0.63;
+  }
+  .service-list {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .service-item {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    background: rgba(255, 255, 255, 0.04);
+    padding: 16px;
+    width: calc((100% - 16px) / 2);
+    @media screen and (max-width: 700px) {
+      width: 100%;
+    }
+    .text {
+      color: #fff;
+      opacity: 1;
+      text-align: left;
+    }
+    &:last-child {
+      width: 100%;
+    }
+  }
+}

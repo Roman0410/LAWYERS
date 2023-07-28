@@ -1,0 +1,37 @@
+.section-title {
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 109.091% */
+  text-transform: uppercase;
+  text-align: center;
+}
+.card-title {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.36px;
+  text-align: center;
+  color: var(--accent-color);
+}
+.text {
+  font-family: Mulish;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #212121;
+  text-align: center;
+}
+.large {
+  color: var(--black, #212121);
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 48px;
+  text-transform: uppercase;
+}

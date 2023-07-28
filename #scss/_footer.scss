@@ -1,0 +1,59 @@
+.footer {
+  .row-1 {
+    display: flex;
+    .left {
+      width: 50%;
+      padding: 32px 16px;
+      @media screen and (max-width: 740px) {
+        width: 100%;
+      }
+      .card {
+        max-width: 330px;
+        margin: 0 auto;
+      }
+      .card-title {
+      }
+      .section-title {
+      }
+      .col {
+        .card-title {
+          margin-bottom: 8px;
+        }
+        a {
+          display: block;
+        }
+      }
+      .info {
+      }
+      .soc-list {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+      }
+      .text {
+      }
+      .copy {
+      }
+      .policy {
+        margin-top: 8px;
+        opacity: 0.67;
+      }
+    }
+    .right {
+      width: 50%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      @media screen and (max-width: 740px) {
+        display: none;
+      }
+    }
+  }
+
+  .container {
+    padding: 32px 15px;
+    .text {
+      opacity: 0.67;
+    }
+  }
+}

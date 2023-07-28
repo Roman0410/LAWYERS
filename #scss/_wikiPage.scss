@@ -1,0 +1,254 @@
+.wiki {
+  background-color: #212121;
+  .top {
+    .section-title {
+      color: #fff;
+    }
+    .text {
+      color: #fff;
+      opacity: 0.6;
+    }
+  }
+  .card-title {
+    margin: 32px 0;
+  }
+  .range-desctop {
+    display: flex;
+    gap: 16px;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+    .filters {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      min-width: 300px;
+    }
+  }
+  .range-mobile {
+    display: none;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+    .filters {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .filter-item {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 0;
+      background-color: transparent;
+    }
+    .filter-name {
+      padding: 16px;
+      background-color: rgba(255, 255, 255, 0.04);
+      &.current {
+        background-color: var(--accent-color);
+      }
+    }
+  }
+  .filter-item {
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.04);
+    color: #fff;
+    cursor: pointer;
+    @media screen and (max-width: 768px) {
+    }
+  }
+  .current {
+    background-color: var(--accent-color);
+  }
+  .info {
+    width: 100%;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.04);
+    .text {
+      color: #fff;
+      text-align: left;
+    }
+    ul {
+      list-style: disc;
+      margin-left: 25px;
+      margin-top: 10px;
+    }
+  }
+  .hide {
+    display: none;
+  }
+}
+.wiki.fff {
+  background-color: #fff;
+  .top {
+    .section-title {
+      color: #212121;
+    }
+    .text {
+      color: #212121;
+      opacity: 0.6;
+    }
+  }
+  .range-desctop {
+    .filter-item {
+      background: rgba(0, 0, 0, 0.04);
+      color: #212121;
+      &.current {
+        background-color: var(--accent-color);
+        color: #fff;
+      }
+    }
+    .info {
+      background: rgba(0, 0, 0, 0.04);
+      .text {
+        color: #212121;
+      }
+    }
+  }
+  .range-mobile {
+    .filter-name {
+      background: rgba(0, 0, 0, 0.04);
+      color: #212121;
+      &.current {
+        background-color: var(--accent-color);
+        color: #fff;
+      }
+    }
+    .info {
+      background: rgba(0, 0, 0, 0.04);
+      .text {
+        color: #212121;
+      }
+    }
+  }
+}
+.banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .card {
+    max-width: 328px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+  .section-title,
+  .text {
+    color: #fff;
+  }
+}
+.wiki.horizontal {
+  background-color: #212121;
+  .top {
+    .section-title {
+      color: #fff;
+    }
+    .text {
+      color: #fff;
+      opacity: 0.6;
+    }
+  }
+  .card-title {
+    margin: 32px 0;
+  }
+  .range-desctop {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+    .filters {
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+      min-width: 300px;
+    }
+    .filter-item {
+      width: 100%;
+    }
+  }
+  .range-mobile {
+    display: none;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+    .filters {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .filter-item {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      padding: 0;
+      background-color: transparent;
+    }
+    .filter-name {
+      padding: 16px;
+      background-color: rgba(255, 255, 255, 0.04);
+      &.current {
+        background-color: var(--accent-color);
+      }
+    }
+  }
+  .filter-item {
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.04);
+    color: #fff;
+    cursor: pointer;
+    @media screen and (max-width: 768px) {
+    }
+  }
+  .current {
+    background-color: var(--accent-color);
+  }
+  .info {
+    width: 100%;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.04);
+    .text {
+      color: #fff;
+      text-align: left;
+    }
+    ul {
+      list-style: disc;
+      margin-left: 25px;
+      margin-top: 10px;
+    }
+  }
+  .hide {
+    display: none;
+  }
+}
+.wiki.horizontal.fff {
+  background-color: #fff;
+  .top {
+    .section-title {
+      color: #212121;
+    }
+    .text {
+      color: #212121;
+      opacity: 0.6;
+    }
+  }
+
+  .filter-name {
+    background: rgba(0, 0, 0, 0.04);
+    color: #212121;
+    &.current {
+      background-color: var(--accent-color);
+      color: #fff;
+    }
+  }
+  .info {
+    background: rgba(0, 0, 0, 0.04);
+    .text {
+      color: #212121;
+    }
+  }
+}

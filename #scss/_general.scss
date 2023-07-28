@@ -1,0 +1,70 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+  cursor: default;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: inherit;
+}
+img {
+  display: block;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.btn {
+  background-color: var(--accent-color);
+  font-family: Mulish;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.44px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 16px 24px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.1s linear;
+  &:active {
+    transform: scale(0.98);
+    box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, 0.408);
+  }
+}
+button {
+  border: none;
+}
+section {
+  padding: 32px 0;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
